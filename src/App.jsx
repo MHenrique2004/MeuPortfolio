@@ -6,6 +6,7 @@ import Contato from './Components/Contato'
 import NavBar from './Components/NavBar'
 import Projetos from './Components/Projetos'
 import Sobre from './Components/Sobre'
+import Contactme from './Components/contactme'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/Contato" element={<Contato />}/>
           <Route path="/Sobre" element={<Sobre />}/>
           <Route path="/Projetos" element={<Projetos />}/>
+          <Route path="/contactme" element={<Contactme/>}/>
         </Routes>
       </BrowserRouter>
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
+import Contactme from './contactme'
+
 
 
 function Projetos() {
@@ -7,7 +9,11 @@ function Projetos() {
     <div>
         <NavBar />
         
-        Projetos</div>
+        Projetos
+        
+        <Contactme/>
+        
+        </div>
   )
 }
 
