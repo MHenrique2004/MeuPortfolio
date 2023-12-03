@@ -1,0 +1,168 @@
+section.Contato-Page{
+
+    padding-top: 40px;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ConteudoContato{
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 60px;
+
+}
+
+.Titulo-Contato{
+
+    border: 1px solid white;
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.Titulo-Contato h1{
+
+    color: white;
+    font-size: 62px;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+
+}
+
+.Paragrafo-Conteudo-Contato{
+
+    width: 90%;
+
+}
+
+.Paragrafo-Conteudo-Contato h3{
+
+    color: white;
+    font-size: 42px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+
+}
+
+.Info-Conteudo-Contato p{
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    font-weight: 300;
+
+}
+
+.Formulario-Contato{
+
+    padding-top: 70px;
+
+}
+
+.inputsnomeemail {
+
+    font-family: 'Inter', sans-serif;
+    gap: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#Nome,
+#Email {
+
+    width: 530px;
+    height: 52px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 4px;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.InputMensagem {
+
+    font-family: 'Inter', sans-serif;
+    gap: 5px;
+    padding-bottom: 4px;
+    width: 100%;
+    display: flex;
+    padding-top: 5px;
+
+}
+
+#Mensagem {
+
+    width: 1070px;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    padding-left: 10px;
+    box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
+
+}
+
+.check{
+
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.check input{
+
+    background-color: #B23A48;
+    width: 25px;
+    height: 20px;
+
+}
+.check label{
+
+   color: white;
+
+}
+
+.check a{
+    color: #8b066f;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.check a:hover {
+    color: #780064;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.Botao-de-envio{
+
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: #B23A48;
+
+}

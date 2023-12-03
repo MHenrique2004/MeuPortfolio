@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar from './NavBar'
-import Contactme from './contactme'
+import Contactme from './Contactme'
+import Footer from './Footer'
+
 
 
 
@@ -9,9 +11,12 @@ function Projetos() {
     <div>
         <NavBar />
         
-        Projetos
+        <div className="Conteudoprojetos">
+
+        </div>
         
         <Contactme/>
+        <Footer/>
         
         </div>
   )

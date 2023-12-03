@@ -174,14 +174,14 @@ section.sobremim-home {
 
 }
 
-.controle-sobremim{
+.controle-sobremim {
 
     width: 90%;
     display: flex;
 
 }
 
-.Sobre-mim-Paragrafo h3{
+.Sobre-mim-Paragrafo h3 {
 
     color: white;
     font-family: 'Inter', sans-serif;
@@ -190,15 +190,15 @@ section.sobremim-home {
     padding-right: 120px;
 }
 
-.Sobre-mim-content{
+.Sobre-mim-content {
 
-    width:77%;
+    width: 77%;
     display: flex;
     flex-direction: column;
 
 }
 
-.Sobre-mim-content h2{
+.Sobre-mim-content h2 {
 
     color: white;
     font-family: 'Inter', sans-serif;
@@ -206,10 +206,10 @@ section.sobremim-home {
     font-size: 24px;
     margin-left: 40px;
     line-height: 32px;
-    
+
 }
 
-.botoes-sobremim{
+.botoes-sobremim {
 
     margin: 41px;
 
@@ -225,18 +225,20 @@ section.MeusProjetos-home {
 
 }
 
-.controle-MeusProjetos{
+.controle-MeusProjetos {
 
     width: 90%;
     display: flex;
 
 }
-.MeusProjetos-Paragrafo{
 
-width: 36.5%;
+.MeusProjetos-Paragrafo {
+
+    width: 36.5%;
 
 }
-.MeusProjetos-Paragrafo h3{
+
+.MeusProjetos-Paragrafo h3 {
 
     color: white;
     font-family: 'Inter', sans-serif;
@@ -245,14 +247,14 @@ width: 36.5%;
     padding-right: 120px;
 }
 
-.cima{
+.cima {
 
     display: flex;
     flex-direction: row;
 
 }
 
-.card{
+.card {
 
     display: flex;
     flex-direction: column;
@@ -260,7 +262,7 @@ width: 36.5%;
 
 }
 
-.imagemcardprojeto img{
+.imagemcardprojeto img {
 
     width: 1fr;
     height: 406px;
@@ -268,13 +270,13 @@ width: 36.5%;
 
 }
 
-.textos-projetos-home{
+.textos-projetos-home {
 
     width: 100%;
 
 }
 
-h2#ProjetoNome{
+h2#ProjetoNome {
 
     margin-top: 18px;
     color: white;
@@ -283,7 +285,7 @@ h2#ProjetoNome{
 
 }
 
-p#ProjetoDesc{
+p#ProjetoDesc {
 
     color: white;
     font-family: 'inter', sans-serif;
@@ -294,13 +296,13 @@ p#ProjetoDesc{
 
 }
 
-.botaoprojeto-home{
+.botaoprojeto-home {
 
     margin-top: 12px;
 
 }
 
-#baixo{
+#baixo {
 
     padding-top: 40px;
 
@@ -316,14 +318,14 @@ section.Contactme {
 
 }
 
-.Contactme-div{
+.Contactme-div {
 
     width: 90%;
     display: flex;
 
 }
 
-.Contactme-Paragrafo h3{
+.Contactme-Paragrafo h3 {
 
     color: white;
     font-family: 'Inter', sans-serif;
@@ -332,24 +334,24 @@ section.Contactme {
     padding-right: 110px;
 }
 
-.Contactme-content{
+.Contactme-content {
 
-    width:77%;
+    width: 77%;
     display: flex;
     flex-direction: column;
 
 }
 
-.Contactme-content h2{
+.Contactme-content h2 {
 
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 24px;
-    
+
 }
 
-.gmail h1{
+.gmail h1 {
 
     font-family: 'inter', sans-serif;
     font-weight: 800;
@@ -359,7 +361,7 @@ section.Contactme {
 
 }
 
-.redessociais{
+.redessociais {
 
     display: flex;
     flex-direction: row;
@@ -369,14 +371,15 @@ section.Contactme {
 
 }
 
-.redessociais a{
+.redessociais a {
 
     color: white;
     font-family: 'inter', sans-serif;
     font-weight: 600;
 
 }
-.redessociais p{
+
+.redessociais p {
 
     color: white;
     font-family: 'inter', sans-serif;
@@ -397,20 +400,20 @@ section.Contactme {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: color;
-  }
-  
-  #RedeSocialButton:focus,
-  #RedeSocialButton:hover {
+}
+
+#RedeSocialButton:focus,
+#RedeSocialButton:hover {
     color: #fff;
-  }
-  
-  #RedeSocialButton:focus:after,
-  #RedeSocialButton:hover:after {
+}
+
+#RedeSocialButton:focus:after,
+#RedeSocialButton:hover:after {
     width: 100%;
     left: 0%;
-  }
-  
-  #RedeSocialButton:after {
+}
+
+#RedeSocialButton:after {
     content: "";
     pointer-events: none;
     bottom: -2px;
@@ -422,4 +425,79 @@ section.Contactme {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
-  }
+}
+
+
+footer.rodape{
+
+    border-top: 1px outset grey;
+
+}
+
+
+.footer-bottom {
+    background: #121212;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom p {
+    float: left;
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.footer-bottom p a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+.footer-menu {
+    float: right;
+    margin-left: 30px;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+@media (max-width: 500px) {
+    .footer-bottom p {
+        float: none;
+    }
+
+    .footer-menu ul {
+        display: flex;
+
+        margin-top: 10px;
+
+        margin-bottom: 20px;
+
+        text-align: center;
+    }
+}

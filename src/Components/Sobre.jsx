@@ -1,5 +1,8 @@
 import React from 'react'
 import NavBar from './NavBar'
+import Contactme from './Contactme'
+import Footer from './Footer'
+
 
 
 function Sobre() {
@@ -7,7 +10,17 @@ function Sobre() {
     <div>
         <NavBar />
         
-        Sobre</div>
+        <div className="conteudosobre">
+
+
+        
+
+        </div>
+        <Contactme />
+        <Footer />
+
+        </div>
+        
   )
 }
 

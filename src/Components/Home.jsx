@@ -16,7 +16,7 @@ function Home() {
             </div>
             <div className="botoes">
               <a href="/Contato"><button className='Botao-apresenta1'>Me Contate!</button></a>
-              <a href=""><button className='Botao-apresenta2'>Curriculum Vitae</button></a>
+              <a href="https://drive.google.com/file/d/177zut8aBP2t-EpISviZ3lWDtiezw3WK8/view?usp=sharing"><button className='Botao-apresenta2'>Curriculum Vitae</button></a>
             </div>
           </div>
           <div className="imagemaolado">
@@ -32,6 +32,9 @@ function Home() {
               <h2>Como desenvolvedor eu desejo criar páginas com design surpreendente e
                 interativas para o conforto visual do usuário e sites com uma performance
                 que também seja excelente.</h2>
+              <br />
+              <h2>Atualmente faço projetos com ReactJS e tenho algumas outras habilidades que 
+                podem ser checadas no meu <a href="https://drive.google.com/file/d/177zut8aBP2t-EpISviZ3lWDtiezw3WK8/view?usp=sharing">Resumo</a>.</h2>
               <div className="botoes-sobremim">
                 <a href="/Sobre"><button className='Botao-apresenta1'>Leia Mais</button></a>
               </div>
@@ -102,7 +105,7 @@ function Home() {
                 <h1 id='email'>mhenriquesouza983@gmail.com</h1>
               </div>
               <div className="redessociais">
-              <a href="https://www.instagram.com/__.henrique2004/"><button id='RedeSocialButton'>Instagram</button></a>
+                <a href="https://www.instagram.com/__.henrique2004/"><button id='RedeSocialButton'>Instagram</button></a>
                 <p>-</p>
                 <a href="https://www.linkedin.com/in/maurício-henrique-560461264"><button id='RedeSocialButton'>LinkedIn</button></a>
                 <p>-</p>
@@ -114,6 +117,24 @@ function Home() {
             </div>
           </div>
         </section>
+        <footer className='rodape'>
+            <div class="footer-bottom">
+
+              <p>©Maurício Henrique, 2023 </p>
+
+              <div class="footer-menu">
+
+                <ul class="f-menu">
+
+                  <li><a id='RedeSocialButton' href="https://storyset.com">Illustrations By <b>StorySet</b></a></li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </footer>
       </div>
 
     </div>
