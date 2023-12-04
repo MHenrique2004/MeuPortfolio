@@ -16,7 +16,9 @@ function Home() {
             </div>
             <div className="botoes">
               <a href="/Contato"><button className='Botao-apresenta1'>Me Contate!</button></a>
-              <a href="https://drive.google.com/file/d/177zut8aBP2t-EpISviZ3lWDtiezw3WK8/view?usp=sharing"><button className='Botao-apresenta2'>Curriculum Vitae</button></a>
+              <a href="https://drive.google.com/file/d/177zut8aBP2t-EpISviZ3lWDtiezw3WK8/view?usp=sharing">
+                <button className='Botao-apresenta2'>Curriculum Vitae</button>
+                </a>
             </div>
           </div>
           <div className="imagemaolado">
@@ -118,13 +120,13 @@ function Home() {
           </div>
         </section>
         <footer className='rodape'>
-            <div class="footer-bottom">
+            <div className="footer-bottom">
 
               <p>©Maurício Henrique, 2023 </p>
 
-              <div class="footer-menu">
+              <div className="footer-menu">
 
-                <ul class="f-menu">
+                <ul className="f-menu">
 
                   <li><a id='RedeSocialButton' href="https://storyset.com">Illustrations By <b>StorySet</b></a></li>
 

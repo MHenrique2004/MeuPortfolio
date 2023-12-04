@@ -3,7 +3,7 @@
 section.Apresentacao {
 
     background-color: #121212;
-    height: 90vh;
+    height: 105vh;
     display: flex;
     align-items: center;
 
@@ -171,6 +171,7 @@ section.sobremim-home {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
 
 }
 
@@ -486,18 +487,1411 @@ footer.rodape{
     color: #27bcda;
 }
 
-@media (max-width: 500px) {
+
+@media screen and (max-width: 390px) {
+
+    section.Apresentacao {
+        height: auto; 
+      }
+      
+      .apresentar h1 {
+        font-size: 24px; 
+      }
+      
+      .apresentar h2 {
+        font-size: 12px; 
+        width: 100%; 
+        text-align: start; 
+        padding-top: 6px; 
+        line-height: 16px; 
+      }
+      
+      .Apresentacao {
+        padding: 8px; 
+      }
+      
+      .imagemaolado {
+        width: 100%;
+        margin-top: 8px; 
+      }
+      
+      .imagemaolado img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+      }
+      
+      .botoes {
+        flex-direction: row; 
+        gap: 6px; 
+        padding-top: 6px; 
+      }
+      
+      .Botao-apresenta1,
+      .Botao-apresenta2 {
+        max-width: 80px; 
+        font-size: 8px; 
+      }
+      
+      .Botao-apresenta1:before {
+        height: 40px; 
+        width: 60px; 
+      }
+      
+      .Botao-apresenta2::before,
+      .Botao-apresenta2::after {
+        width: 12px; 
+        height: 12px; 
+      }
+      
+      .Botao-apresenta2:hover::before,
+      .Botao-apresenta2:hover::after {
+        height: 60px; 
+        width: 60px; 
+      }
+      
+      .Botao-apresenta2 {
+        width: 50px; 
+        height: 20px; 
+      }
+
+      section.sobremim-home {
+        padding-top: 8px; 
+      }
+      
+      .controle-sobremim {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+      
+      .Sobre-mim-Paragrafo {
+        width: 18%; 
+        text-align: start;
+      }
+      
+      .Sobre-mim-Paragrafo h3 {
+        padding-left: 10px; 
+        font-size: 12px; 
+      }
+      
+      .Sobre-mim-content {
+        width: 70%;
+      }
+      
+      .Sobre-mim-content h2 {
+        margin-left: 0;
+        text-align: start;
+        font-size: 10px; 
+        line-height: 12px;
+      }
+      
+      .botoes-sobremim {
+        margin: 8px 0; 
+        text-align: start;
+      }
+
+      section.MeusProjetos-home {
+        padding-top: 8px; 
+      }
+      
+      .controle-MeusProjetos {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+      
+      .MeusProjetos-Paragrafo {
+        width: 18%;
+        text-align: start;
+        margin-bottom: 10px; 
+      }
+      
+      .MeusProjetos-Paragrafo h3 {
+        padding-left: 10px; 
+        font-size: 10px; 
+      }
+      
+      .cima {
+        flex-direction: row; 
+        align-items: start;
+        gap: 10px; 
+      }
+      
+      .card {
+        width: 40%; 
+        padding-bottom: 20px; 
+      }
+      
+      .imagemcardprojeto img {
+        width: 100%;
+        max-height: 150px; 
+        border-radius: 5px;
+      }
+      
+      .textos-projetos-home {
+        width: 100%;
+      }
+      
+      h2#ProjetoNome {
+        margin-top: 8px; 
+        text-align: start;
+        font-size: 14px; 
+      }
+      
+      p#ProjetoDesc {
+        width: 100%;
+        font-size: 10px; 
+        line-height: 12px;
+      }
+      
+      .botaoprojeto-home {
+        margin-top: 8px;
+      }
+      
+      #baixo {
+        padding-top: 12px; 
+        padding-bottom: 20px; 
+      }
+
+      section.Contactme {
+        padding-top: 8px; 
+      }
+      
+      .Contactme-div {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+      
+      .Contactme-Paragrafo {
+        width: 18%; 
+        text-align: start;
+        margin-bottom: 10px; 
+      }
+      
+      .Contactme-Paragrafo h3 {
+        padding-left: 10px; 
+        font-size: 10px; 
+      }
+      
+      .Contactme-content {
+        width: 100%;
+      }
+      
+      .Contactme-content h2 {
+        text-align: start;
+        font-size: 10px; 
+      }
+      
+      .gmail h1 {
+        font-size: 12px; 
+        text-align: start;
+        padding-top: 8px; 
+      }
+      
+      .redessociais {
+        flex-direction: row; 
+        align-items: start;
+        margin-top: 10px; 
+        padding-bottom: 12px; 
+      }
+      
+      .redessociais a,
+      .redessociais p {
+        text-align: start;
+      }
+      
+      #RedeSocialButton {
+        font-size: 8px; 
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-menu {
+        float: none; 
+        margin-left: 0;
+        margin-top: 10px; 
+    }
+    
+    .footer-menu ul {
+        flex-direction: column; 
+        text-align: center;
+    }
+    
+    .footer-menu ul li {
+        padding-right: 0; 
+        margin-bottom: 8px; 
+    }
+    
+    
+    
     .footer-bottom p {
-        float: none;
+        float: left;
+        color: white;
+        font-family: 'inter', sans-serif;
+        font-size: 14px;
+        word-spacing: 2px;
+    }
+    
+    .footer-bottom p a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    .footer-menu ul li a {
+        color: #cfd2d6;
+        text-decoration: none;
+    }
+    
+    .footer-menu ul li a:hover {
+        color: #27bcda;
+    }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 459px) {
+
+    section.Apresentacao {
+        height: auto; 
+      }
+      
+      .apresentar h1 {
+        font-size: 30px; 
+      }
+      
+      .apresentar h2 {
+        font-size: 14px; 
+        width: 100%; 
+        text-align: start; 
+        padding-top: 8px; 
+        line-height: 20px; 
+      }
+      
+      .Apresentacao {
+        padding: 10px; 
+      }
+      
+      .apresentar {
+        margin-left: 0; 
+      }
+      
+      .imagemaolado {
+        width: 100%;
+        margin-top: 10px; 
+      }
+      
+      .imagemaolado img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+      }
+      
+      .botoes {
+        flex-direction: row; 
+        gap: 8px; 
+        padding-top: 8px; 
+      }
+      
+      .Botao-apresenta1,
+      .Botao-apresenta2 {
+        max-width: 100px; 
+        font-size: 10px; 
+      }
+      
+      .Botao-apresenta1:before {
+        height: 50px; 
+        width: 75px; 
+      }
+      
+      .Botao-apresenta2::before,
+      .Botao-apresenta2::after {
+        width: 15px; 
+        height: 15px; 
+      }
+      
+      .Botao-apresenta2:hover::before,
+      .Botao-apresenta2:hover::after {
+        height: 75px; 
+        width: 75px; 
+      }
+      
+      .Botao-apresenta2{
+        width: 65px;
+        height: 25px;
+      }
+
+      section.sobremim-home {
+        padding-top: 10px;
+      }
+      
+      .controle-sobremim {
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+      }
+      
+      .Sobre-mim-Paragrafo {
+        width: 30%; 
+        text-align: start;
+      }
+      
+      .Sobre-mim-Paragrafo h3 {
+        padding-left: 15px;
+        font-size: 18px;
+      }
+      
+      .Sobre-mim-content {
+        width: 100%;
+      }
+      
+      .Sobre-mim-content h2 {
+        margin-left: 0;
+        text-align: start;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      
+      .botoes-sobremim {
+        margin: 10px 0;
+        text-align: start;
+      }
+
+      section.MeusProjetos-home {
+        padding-top: 10px;
+      }
+      
+      .controle-MeusProjetos {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+      
+      .MeusProjetos-Paragrafo {
+        width: 30%; 
+        text-align: start; 
+        margin-bottom: 15px; 
+      }
+      
+      .MeusProjetos-Paragrafo h3 {
+        padding-left: 15px;
+        font-size: 18px;
+      }
+      
+      .cima {
+        flex-direction: row; 
+        align-items: start; 
+        gap: 20px;
+      }
+      
+      .card {
+        width: 40%; 
+        padding-bottom: 40px;
+      }
+      
+      .imagemcardprojeto img {
+        width: 100%; 
+        max-height: 200px; 
+        border-radius: 5px;
+      }
+      
+      .textos-projetos-home {
+        width: 100%; 
+      }
+      
+      h2#ProjetoNome {
+        margin-top: 12px; 
+        text-align: start; 
+        font-size: 16px; 
+      }
+      
+      p#ProjetoDesc {
+        width: 100%; 
+        font-size: 10px; 
+        line-height: 14px;
+      }
+      
+      .botaoprojeto-home {
+        margin-top: 12px;
+      }
+      
+      #baixo {
+        padding-top: 20px; 
+        padding-bottom: 30px; 
+      }
+
+      section.Contactme {
+        padding-top: 20px;
+      }
+      
+      .Contactme-div {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+      
+      .Contactme-Paragrafo {
+        width: 30%; 
+        text-align: start; 
+        margin-bottom: 15px; 
+      }
+      
+      .Contactme-Paragrafo h3 {
+        padding-left: 15px;
+        font-size: 18px;
+      }
+      
+      .Contactme-content {
+        width: 100%;
+      }
+      
+      .Contactme-content h2 {
+        text-align: start;
+        font-size: 10px;
+      }
+      
+      .gmail h1 {
+        font-size: 14px; 
+        text-align: start; 
+        padding-top: 10px;
+      }
+      
+      .redessociais {
+        flex-direction: row; 
+        align-items: start; 
+        margin-top: 15px; 
+        padding-bottom: 20px; 
+      }
+      
+      .redessociais a,
+      .redessociais p {
+        text-align: start; 
+      }
+      
+      #RedeSocialButton {
+        font-size: 8px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menu {
+        float: none; 
+        margin-left: 0;
+        margin-top: 10px; 
     }
 
     .footer-menu ul {
-        display: flex;
-
-        margin-top: 10px;
-
-        margin-bottom: 20px;
-
+        flex-direction: column; 
         text-align: center;
     }
+
+    .footer-menu ul li {
+        padding-right: 0; 
+        margin-bottom: 8px; 
+    }
+
+}
+
+@media only screen and (min-width: 459px) and (max-width: 599px) {
+
+    section.Apresentacao {
+        height: auto; 
+      }
+    
+      .apresentar h1 {
+        font-size: 30px; 
+      }
+    
+      .apresentar h2 {
+        font-size: 14px; 
+        width: 100%; 
+        text-align: start; 
+        padding-top: 8px; 
+        line-height: 20px; 
+      }
+    
+      .Apresentacao {
+        padding: 10px; 
+      }
+    
+      .apresentar {
+        margin-left: 0; 
+      }
+    
+      .imagemaolado {
+        width: 100%;
+        margin-top: 10px; 
+      }
+    
+      .imagemaolado img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+      }
+    
+      .botoes {
+        flex-direction: row; 
+        gap: 8px; 
+        padding-top: 8px; 
+      }
+    
+      .Botao-apresenta1,
+      .Botao-apresenta2 {
+        max-width: 120px; 
+        font-size: 10px; 
+      }
+    
+      .Botao-apresenta1:before {
+        height: 60px; 
+        width: 90px; 
+      }
+    
+      .Botao-apresenta2::before,
+      .Botao-apresenta2::after {
+        width: 18px; 
+        height: 18px; 
+      }
+    
+      .Botao-apresenta2:hover::before,
+      .Botao-apresenta2:hover::after {
+        height: 90px; 
+        width: 90px; 
+      }
+
+      .Botao-apresenta2{
+
+        width: 79px;
+        height:25px;
+
+      }
+
+      section.sobremim-home {
+        padding-top: 10px;
+      }
+      
+      .controle-sobremim {
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+      }
+      
+      .Sobre-mim-Paragrafo {
+        width: 20%; 
+        text-align: start;
+      }
+      
+      .Sobre-mim-Paragrafo h3 {
+        padding-left: 15px;
+        font-size: 18px;
+      }
+      
+      .Sobre-mim-content {
+        width: 100%;
+      }
+      
+      .Sobre-mim-content h2 {
+        margin-left: 0;
+        text-align: start;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      
+      .botoes-sobremim {
+        margin: 10px 0;
+        text-align: start;
+      }
+      
+      section.MeusProjetos-home {
+        padding-top: 10px;
+      }
+      
+      .controle-MeusProjetos {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+      
+      .MeusProjetos-Paragrafo {
+        width: 20%; 
+        text-align: start; 
+        margin-bottom: 15px; 
+      }
+      
+      .MeusProjetos-Paragrafo h3 {
+        padding-left: 15px;
+        font-size: 18px;
+      }
+      
+      .cima {
+        flex-direction: row; 
+        align-items: start; 
+        gap: 20px;
+      }
+      
+      .card {
+        width: 35%; 
+        padding-bottom: 40px;
+      }
+      
+      .imagemcardprojeto img {
+        width: 100%; 
+        max-height: 250px; 
+        border-radius: 5px;
+      }
+      
+      .textos-projetos-home {
+        width: 100%; 
+      }
+      
+      h2#ProjetoNome {
+        margin-top: 12px; 
+        text-align: start; 
+        font-size: 20px;
+      }
+      
+      p#ProjetoDesc {
+        width: 100%; 
+        font-size: 12px;
+        line-height: 16px;
+      }
+      
+      .botaoprojeto-home {
+        margin-top: 12px;
+      }
+      
+      #baixo {
+        padding-top: 20px; 
+        padding-bottom: 30px; 
+      }
+
+      section.Contactme {
+        padding-top: 20px;
+      }
+      
+      .Contactme-div {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+      
+      .Contactme-Paragrafo {
+        width: 20%; 
+        text-align: start; 
+        margin-bottom: 15px; 
+        
+      }
+      
+      .Contactme-Paragrafo h3 {
+        padding-left: 15px;
+        font-size: 18px;
+      }
+      
+      .Contactme-content {
+        width: 100%;
+      }
+      
+      .Contactme-content h2 {
+        text-align: start;
+        font-size: 14px;
+      }
+      
+      .gmail h1 {
+        font-size: 22px; 
+        text-align: start; 
+        padding-top: 10px;
+      }
+      
+      .redessociais {
+        flex-direction: row; 
+        align-items: start; 
+        margin-top: 15px; 
+        padding-bottom: 20px; 
+      }
+      
+      .redessociais a,
+      .redessociais p {
+        text-align: start; 
+      }
+      
+      #RedeSocialButton {
+        font-size: 12px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menu {
+        float: none; 
+        margin-left: 0;
+        margin-top: 10px; 
+    }
+
+    .footer-menu ul {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .footer-menu ul li {
+        padding-right: 0; 
+        margin-bottom: 8px; 
+    }
+
+}
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+
+    section.Apresentacao {
+        height: auto; 
+      }
+    
+      .apresentar h1 {
+        font-size: 40px; 
+      }
+    
+      .apresentar h2 {
+        font-size: 16px; 
+        width: 60%; 
+        text-align: start; 
+        padding-top: 12px; 
+        line-height: 24px; 
+      }
+
+    .Apresentacao {
+        padding: 15px;
+      }
+    
+      .apresentar {
+        width: 100%;
+        margin-left: 0;
+      }
+    
+      .imagemaolado {
+        width: 100%;
+        margin-top: 15px;
+      }
+    
+      .imagemaolado img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+      }
+    
+      .botoes {
+        flex-direction: row;
+        gap: 10px;
+        padding-top: 10px;
+      }
+    
+      .Botao-apresenta1,
+      .Botao-apresenta2 {
+        width: 100%;
+        max-width: 160px; 
+        margin: 0 auto;
+        font-size: 12px; 
+      }
+    
+      .Botao-apresenta1:before {
+        height: 80px; 
+        width: 120px; 
+      }
+    
+      .Botao-apresenta2::before,
+      .Botao-apresenta2::after {
+        width: 24px;
+        height: 24px;
+      }
+    
+      .Botao-apresenta2:hover::before,
+      .Botao-apresenta2:hover::after {
+        height: 120px; 
+        width: 120px; 
+      }
+
+      .Botao-apresenta2{
+
+        width: 80px;
+        height: 30px;
+
+      }
+
+      /* */
+      section.sobremim-home {
+        padding-top: 10px;
+      }
+    
+      .controle-sobremim {
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+      }
+
+      .Sobre-mim-Paragrafo{
+
+        width: 27%;
+
+      }
+    
+      .Sobre-mim-Paragrafo h3 {
+        padding-left: 15px;
+        text-align: start;
+      }
+    
+      .Sobre-mim-content {
+        width: 100%;
+      }
+    
+      .Sobre-mim-content h2 {
+        margin-left: 0;
+        text-align: start;
+        font-size: 18px;
+      }
+    
+      .botoes-sobremim {
+        margin: 10px 0;
+        text-align: start;
+      }
+
+      section.MeusProjetos-home {
+        padding-top: 10px;
+      }
+    
+      .controle-MeusProjetos {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+    
+      .MeusProjetos-Paragrafo {
+        width: 27%; 
+        text-align: start; 
+        margin-bottom: 15px; 
+      }
+    
+      .MeusProjetos-Paragrafo h3 {
+        padding-left: 15px;
+      }
+    
+      .cima {
+        flex-direction: row; 
+        align-items: start; 
+        gap: 20px;
+      }
+    
+      .card {
+        width: 40%; 
+        padding-bottom: 40px;
+      }
+    
+      .imagemcardprojeto img {
+        width: 100%; 
+        max-height: 250px; 
+        border-radius: 5px;
+      }
+    
+      .textos-projetos-home {
+        width: 100%; 
+      }
+    
+      h2#ProjetoNome {
+        margin-top: 12px; 
+        text-align: start; 
+      }
+    
+      p#ProjetoDesc {
+        width: 100%; 
+      }
+    
+      .botaoprojeto-home {
+        margin-top: 12px;
+      }
+    
+      #baixo {
+        padding-top: 20px; 
+        padding-bottom: 30px; 
+      }
+
+      section.Contactme {
+        padding-top: 20px;
+      }
+    
+      .Contactme-div {
+        flex-direction: row; 
+        width: 100%;
+        margin: 0;
+      }
+
+      .Contactme-Paragrafo{
+
+        width: 25%;
+
+      }
+    
+      .Contactme-Paragrafo h3 {
+        padding-left: 15px;
+        text-align: start;
+      }
+    
+      .Contactme-content {
+        width: 100%;
+      }
+    
+      .Contactme-content h2 {
+        text-align: start;
+        font-size: 18px;
+      }
+    
+      .gmail h1 {
+        font-size: 26px; 
+        text-align: start; 
+        padding-top: 10px;
+      }
+    
+      .redessociais {
+        flex-direction: row; 
+        align-items: center; 
+        margin-top: 15px; 
+        padding-bottom: 20px; 
+      }
+    
+      .redessociais a,
+      .redessociais p {
+        text-align: start; 
+      }
+    
+      #RedeSocialButton {
+        font-size: 12px;
+      }
+
+      .footer-bottom {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menu {
+        float: none; 
+        margin-left: 10px;
+        margin-top: 10px; 
+    }
+
+    .footer-menu ul {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .footer-menu ul li {
+        padding-right: 0; 
+        margin-bottom: 8px; 
+    }
+
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+    section.Apresentacao {
+        height: auto; 
+      }
+    
+      .apresentar h1 {
+        font-size: 40px; 
+      }
+    
+      .apresentar h2 {
+        font-size: 16px; 
+        width: 60%; 
+        text-align: start; 
+        padding-top: 12px; 
+        line-height: 24px; 
+      }
+
+    .Apresentacao {
+        height: auto;
+        padding: 30px;
+      }
+    
+      .apresentar {
+        width: 100%;
+        margin-left: 0;
+      }
+    
+      .imagemaolado {
+        width: 100%;
+        margin-top: 20px;
+      }
+    
+      .imagemaolado img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+      }
+    
+      .botoes {
+        flex-direction: row;
+        gap: 10px;
+        padding-top: 10px;
+      }
+    
+      .Botao-apresenta1,
+      .Botao-apresenta2 {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        font-size: 14px;
+      }
+    
+      .Botao-apresenta1:before {
+        height: 100px;
+        width: 150px;
+      }
+    
+      .Botao-apresenta2::before,
+      .Botao-apresenta2::after {
+        width: 30px;
+        height: 30px;
+      }
+    
+      .Botao-apresenta2:hover::before,
+      .Botao-apresenta2:hover::after {
+        height: 150px;
+        width: 150px;
+      }
+
+      .Botao-apresenta2{
+
+        width: 90px;
+        height: 38px;
+
+      }
+
+      /**/
+
+      section.sobremim-home {
+        padding-top: 20px;
+      }
+    
+      .controle-sobremim {
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+      }
+    
+      .Sobre-mim-Paragrafo h3 {
+        padding-right: 0;
+      }
+    
+      .Sobre-mim-content {
+        width: 100%;
+      }
+    
+      .Sobre-mim-content h2 {
+        margin-left: 0;
+        text-align: start;
+        font-size: 20px;
+      }
+    
+      .botoes-sobremim {
+        margin: 20px 0;
+        text-align: start;
+      }
+
+      /**/
+      section.MeusProjetos-home {
+        padding-top: 20px;
+      }
+    
+      .controle-MeusProjetos {
+        flex-direction: row; 
+        width: 90%;
+        margin: 0 auto;
+      }
+    
+      .MeusProjetos-Paragrafo {
+        width: 36.5%;
+        text-align: left; 
+        margin-bottom: 0; 
+      }
+    
+      .MeusProjetos-Paragrafo h3 {
+        padding-right: 0;
+      }
+    
+      .cima {
+        flex-direction: row; 
+        align-items: center;
+      }
+    
+      .card {
+        width: 60%;
+      }
+    
+      .imagemcardprojeto img {
+        width: 90%; 
+        max-height: 300px; 
+        object-fit: cover; 
+        border-radius: 5px;
+      }
+    
+      .textos-projetos-home {
+        width: 80%;
+      }
+    
+      h2#ProjetoNome {
+        margin-top: 18px;
+      }
+    
+      p#ProjetoDesc {
+        width: 100%;
+      }
+    
+      .botaoprojeto-home {
+        margin-top: 12px;
+      }
+    
+      #baixo {
+        padding-top: 40px;
+        padding-bottom: 50px;
+      }
+
+      section.Contactme {
+        padding-top: 40px;
+      }
+    
+      .Contactme-div {
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+      }
+    
+      .Contactme-Paragrafo h3 {
+        padding-right: 0;
+        text-align: center; 
+      }
+    
+      .Contactme-content {
+        width: 100%;
+      }
+    
+      .Contactme-content h2 {
+        text-align: start; 
+        font-size: 20px;
+      }
+    
+      .gmail h1 {
+        font-size: 32px; 
+        text-align: start; 
+        padding-top: 10px;
+      }
+    
+      .redessociais {
+        flex-direction: row; 
+        align-items: start; 
+        margin-top: 20px;
+        padding-bottom: 30px;
+      }
+    
+      .redessociais a,
+      .redessociais p {
+        text-align: start; 
+      }
+    
+      #RedeSocialButton {
+        font-size: 12px; 
+      }
+    
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+
+    section.Apresentacao {
+        height: auto; 
+      }
+    
+      .apresentar h1 {
+        font-size: 40px; 
+      }
+    
+      .apresentar h2 {
+        font-size: 16px; 
+        width: 60%; 
+        text-align: start; 
+        padding-top: 12px; 
+        line-height: 24px; 
+      }
+
+    .Apresentacao {
+        height: auto;
+        padding: 30px;
+      }
+    
+      .apresentar {
+        width: 100%;
+        margin-left: 0;
+      }
+    
+      .imagemaolado {
+        width: 100%;
+        margin-top: 20px;
+      }
+    
+      .imagemaolado img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+      }
+    
+      .botoes {
+        flex-direction: row;
+        gap: 10px;
+        padding-top: 10px;
+      }
+    
+      .Botao-apresenta1,
+      .Botao-apresenta2 {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        font-size: 14px;
+      }
+    
+      .Botao-apresenta1:before {
+        height: 100px;
+        width: 150px;
+      }
+    
+      .Botao-apresenta2::before,
+      .Botao-apresenta2::after {
+        width: 30px;
+        height: 30px;
+      }
+    
+      .Botao-apresenta2:hover::before,
+      .Botao-apresenta2:hover::after {
+        height: 150px;
+        width: 150px;
+      }
+
+      .Botao-apresenta2{
+
+        width: 90px;
+        height: 38px;
+
+      }
+
+    section.MeusProjetos-home {
+        padding-top: 20px;
+      }
+    
+      .controle-MeusProjetos {
+        flex-direction: row; 
+        width: 90%;
+        margin: 0 auto;
+      }
+    
+      .MeusProjetos-Paragrafo {
+        width: 36.5%;
+        text-align: left; 
+        margin-bottom: 0; 
+      }
+    
+      .MeusProjetos-Paragrafo h3 {
+        padding-right: 0;
+      }
+    
+      .cima {
+        flex-direction: row; 
+        align-items: center;
+      }
+    
+      .card {
+        width: 60%;
+      }
+    
+      .imagemcardprojeto img {
+        width: 90%; 
+        max-height: 300px; 
+        object-fit: cover; 
+        border-radius: 5px;
+      }
+    
+      .textos-projetos-home {
+        width: 80%;
+      }
+    
+      h2#ProjetoNome {
+        margin-top: 18px;
+      }
+    
+      p#ProjetoDesc {
+        width: 100%;
+      }
+    
+      .botaoprojeto-home {
+        margin-top: 12px;
+      }
+    
+      #baixo {
+        padding-top: 40px;
+        padding-bottom: 50px;
+      }
+
+      section.Contactme {
+        padding-top: 40px;
+      }
+    
+      .Contactme-div {
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+      }
+    
+      .Contactme-Paragrafo h3 {
+        padding-right: 0;
+        text-align: center; 
+      }
+
+      .Contactme-content {
+        width: 100%;
+      }
+    
+      .Contactme-content h2 {
+        text-align: start; 
+        font-size: 20px;
+      }
+    
+      .gmail h1 {
+        font-size: 44px; 
+        text-align: start; 
+        padding-top: 10px;
+      }
+    
+      .redessociais {
+        flex-direction: row; 
+        align-items: start; 
+        margin-top: 20px;
+        padding-bottom: 30px;
+      }
+    
+      .redessociais a,
+      .redessociais p {
+        text-align: start; 
+      }
+    
+      #RedeSocialButton {
+        font-size: 12px; 
+      }
+
 }

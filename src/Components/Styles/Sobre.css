@@ -1,0 +1,128 @@
+.imagem-sobre-page{
+
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.imagem-sobre-pagina{
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagem-sobre-pagina img{
+
+    width: 80%;
+
+}
+
+section.sobremim-page {
+
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+}
+
+.controle-sobremim-page {
+
+    width: 90%;
+    display: flex;
+
+}
+
+.Sobre-mim-page-h3 h3 {
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 120px;
+}
+
+.Sobre-mim-page-content {
+
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards-sobremim{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.card-Sobremim {
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+.textos-sobremim-home {
+
+    width: 100%;
+
+}
+
+
+h2#TituloEXPERIENCIA {
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 10px;
+
+}
+
+p#EXperienciadesc {
+
+    color: rgb(136, 0, 104);
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 22px;
+    width: 60%;
+    padding-bottom: 12px;
+
+}
+
+p#Data {
+
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 22px;
+    width: 70%;
+
+}
+
+@media screen and (max-width: 390px) {}
+
+@media only screen and (min-width: 390px) and (max-width: 459px) {}
+
+@media only screen and (min-width: 459px) and (max-width: 599px) {}
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {}
