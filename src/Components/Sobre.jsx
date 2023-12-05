@@ -75,7 +75,7 @@ function Sobre() {
           <div className="Sobre-mim-page-h3">
             <h3>Formações</h3>
           </div>
-        
+        <div className="cards-sobremim">
           <div className="card-Sobremim">
                 <div className="textos-sobremim-home">
                   <h2 id='TituloEXPERIENCIA'>Análise e Des. de Sistemas</h2>
@@ -97,6 +97,7 @@ function Sobre() {
                   com a bolsa de estudos do Santander Coders 2023
                   </p>
                 </div>
+              </div>
               </div>
 
         </div>

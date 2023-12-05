@@ -1714,7 +1714,7 @@ footer.rodape{
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
 
     section.Apresentacao {
         height: auto; 

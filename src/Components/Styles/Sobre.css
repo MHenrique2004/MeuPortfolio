@@ -60,7 +60,7 @@ section.sobremim-page {
 .cards-sobremim{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     gap: 30px;
 
@@ -117,12 +117,246 @@ p#Data {
 
 }
 
-@media screen and (max-width: 390px) {}
+@media screen and (max-width: 390px) {
 
-@media only screen and (min-width: 390px) and (max-width: 459px) {}
+    section.sobremim-page {
+        padding-top: 60px; 
+        padding-bottom: 20px; 
+    }
 
-@media only screen and (min-width: 459px) and (max-width: 599px) {}
+    .controle-sobremim-page {
+        width: 90%; 
+    }
 
-@media only screen and (min-width: 599px) and (max-width: 767px) {}
+    .Sobre-mim-page-h3 h3 {
+        font-size: 18px; 
+        padding-right: 40px; 
+    }
 
-@media only screen and (min-width: 767px) and (max-width: 992px) {}
+    .Sobre-mim-page-content {
+        width: 95%; 
+    }
+
+    .cards-sobremim {
+
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .card-Sobremim {
+        width: 100%; 
+    }
+
+    h2#TituloEXPERIENCIA {
+        font-size: 16px; 
+        padding-bottom: 6px; 
+    }
+
+    p#EXperienciadesc {
+        font-size: 14px; 
+        width: 90%; 
+        padding-bottom: 8px; 
+        line-height: 15px;
+    }
+
+    p#Data {
+        font-size: 12px; 
+        width: 82%; 
+        line-height: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 459px) {
+
+    section.sobremim-page {
+        padding-top: 60px; 
+        padding-bottom: 20px; 
+    }
+
+    .controle-sobremim-page {
+        width: 90%; 
+    }
+
+    .Sobre-mim-page-h3 h3 {
+        font-size: 18px; 
+        padding-right: 40px; 
+    }
+
+    .Sobre-mim-page-content {
+        width: 95%; 
+    }
+
+    .cards-sobremim {
+
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .card-Sobremim {
+        width: 100%; 
+    }
+
+    h2#TituloEXPERIENCIA {
+        font-size: 16px; 
+        padding-bottom: 6px; 
+    }
+
+    p#EXperienciadesc {
+        font-size: 14px; 
+        width: 90%; 
+        padding-bottom: 8px; 
+        line-height: 15px;
+    }
+
+    p#Data {
+        font-size: 12px; 
+        width: 82%; 
+        line-height: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 459px) and (max-width: 599px) {
+
+    section.sobremim-page {
+        padding-top: 60px; 
+        padding-bottom: 20px; 
+    }
+
+    .controle-sobremim-page {
+        width: 90%; 
+    }
+
+    .Sobre-mim-page-h3 h3 {
+        font-size: 18px; 
+        padding-right: 40px; 
+    }
+
+    .Sobre-mim-page-content {
+        width: 95%; 
+    }
+
+    .cards-sobremim {
+
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .card-Sobremim {
+        width: 100%; 
+    }
+
+    h2#TituloEXPERIENCIA {
+        font-size: 16px; 
+        padding-bottom: 6px; 
+    }
+
+    p#EXperienciadesc {
+        font-size: 14px; 
+        width: 90%; 
+        padding-bottom: 8px; 
+        line-height: 15px;
+    }
+
+    p#Data {
+        font-size: 12px; 
+        width: 82%; 
+        line-height: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+
+    section.sobremim-page {
+        padding-top: 60px; 
+        padding-bottom: 20px; 
+    }
+
+    .controle-sobremim-page {
+        width: 90%; 
+    }
+
+    .Sobre-mim-page-h3 h3 {
+        font-size: 18px; 
+        padding-right: 40px; 
+    }
+
+    .Sobre-mim-page-content {
+        width: 95%; 
+    }
+
+    .cards-sobremim {
+        gap: 15px; 
+    }
+
+    .card-Sobremim {
+        width: 100%; 
+    }
+
+    h2#TituloEXPERIENCIA {
+        font-size: 16px; 
+        padding-bottom: 6px; 
+    }
+
+    p#EXperienciadesc {
+        font-size: 14px; 
+        width: 90%; 
+        padding-bottom: 8px; 
+        line-height: 15px;
+    }
+
+    p#Data {
+        font-size: 12px; 
+        width: 82%; 
+        line-height: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+    section.sobremim-page {
+        padding-top: 80px; 
+        padding-bottom: 30px; 
+    }
+
+    .controle-sobremim-page {
+        width: 80%; 
+    }
+
+    .Sobre-mim-page-h3 h3 {
+        font-size: 20px; 
+        padding-right: 60px; 
+    }
+
+    .Sobre-mim-page-content {
+        width: 90%; 
+    }
+
+    .cards-sobremim {
+        gap: 20px; 
+    }
+
+    .card-Sobremim {
+        width: 100%; 
+    }
+
+    h2#TituloEXPERIENCIA {
+        font-size: 20px; 
+        padding-bottom: 8px;
+    }
+
+    p#EXperienciadesc {
+        font-size: 16px; 
+        width: 80%; 
+        padding-bottom: 10px;
+    }
+
+    p#Data {
+        font-size: 14px; 
+        width: 90%; 
+    }
+
+}
