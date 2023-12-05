@@ -265,10 +265,24 @@ section.MeusProjetos-home {
 
 .imagemcardprojeto img {
 
-    width: 1fr;
+    width: 90%;
     height: 406px;
     border-radius: 5px;
+    filter: grayscale(90%);
 
+}
+
+.imagemcardprojeto img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imagemcardprojeto img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  filter: brightness(120%);
+  transition: 0.5s;
 }
 
 .textos-projetos-home {
@@ -1714,7 +1728,7 @@ footer.rodape{
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1190px){
 
     section.Apresentacao {
         height: auto; 

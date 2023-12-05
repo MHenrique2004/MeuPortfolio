@@ -51,45 +51,46 @@ function Home() {
             <div className="MeusProjetos-content">
               <div className="cima">
                 <div className="card">
-                  <div className="imagemcardprojeto"><img src="https://picsum.photos/1" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/logo-vr-1.jpg" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>VR Veículos Catálogo</h2>
-                    <p id='ProjetoDesc'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptas r numquam?</p>
+                    <p id='ProjetoDesc'>Catálogo desenvolvido para o cliente "VR Veículos" com a equipe de dev. freelancer
+                    PD-TECH.</p>
                   </div>
                   <div className="botaoprojeto-home">
                     <a href="https://www.catalogovrveiculos.com"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
                 </div>
                 <div className="card">
-                  <div className="imagemcardprojeto"><img src="https://picsum.photos/1" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/todolist.png" alt="" /></div>
                   <div className="textos-projetos-home">
-                    <h2 id='ProjetoNome'>VR Veículos Catálogo</h2>
-                    <p id='ProjetoDesc'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptas r numquam?</p>
+                    <h2 id='ProjetoNome'>Lista de Tarefas</h2>
+                    <p id='ProjetoDesc'>WEB APP para fazer anotações, lista de metas e etc... feito com reactjs.</p>
                   </div>
                   <div className="botaoprojeto-home">
-                    <a href="https://www.catalogovrveiculos.com"><button className='Botao-apresenta1'>Ver Projeto</button></a>
+                    <a href="https://mhenrique2004.github.io/To-Do-List/"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
                 </div>
               </div>
               <div className="cima" id='baixo'>
                 <div className="card">
-                  <div className="imagemcardprojeto"><img src="https://picsum.photos/1" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/foto-sobre-projeto.png" alt="" /></div>
                   <div className="textos-projetos-home">
-                    <h2 id='ProjetoNome'>VR Veículos Catálogo</h2>
-                    <p id='ProjetoDesc'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptas r numquam?</p>
+                    <h2 id='ProjetoNome'>Landing Page Thaís</h2>
+                    <p id='ProjetoDesc'>Landing Page desenvolvida para a sócia da empresa Pegada Digital para captação de clientes.</p>
                   </div>
                   <div className="botaoprojeto-home">
-                    <a href="https://www.catalogovrveiculos.com"><button className='Botao-apresenta1'>Ver Projeto</button></a>
+                    <a href="https://www.thaismelopd.com"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
                 </div>
                 <div className="card">
-                  <div className="imagemcardprojeto"><img src="https://picsum.photos/1" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/Temperatura.png" alt="" /></div>
                   <div className="textos-projetos-home">
-                    <h2 id='ProjetoNome'>VR Veículos Catálogo</h2>
-                    <p id='ProjetoDesc'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptas r numquam?</p>
+                    <h2 id='ProjetoNome'>WeatherApp</h2>
+                    <p id='ProjetoDesc'>WEB APP usado para consulta de temperatura e afins usando uma api pública de clima.</p>
                   </div>
                   <div className="botaoprojeto-home">
-                    <a href="https://www.catalogovrveiculos.com"><button className='Botao-apresenta1'>Ver Projeto</button></a>
+                    <a href="https://mhenrique2004.github.io/Temperatura/"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
                 </div>
               </div>
