@@ -12,7 +12,7 @@ function Footer() {
 
                         <ul className="f-menu">
 
-                            <li><a id='RedeSocialButton' href="https://storyset.com">Illustration By <b>StorySet</b></a></li>
+                            <li><a id='RedeSocialButton' href="https://storyset.com">Illustrations By <b>StorySet</b></a></li>
 
                         </ul>
 
