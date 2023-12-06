@@ -47,7 +47,7 @@ function Sobre() {
       <section className="imagem-sobre-page">
         <div className="imagem-sobre-pagina">
           <TextReveal>
-            <img src="src/assets/Upload-amico.png" alt="" />
+            <img src="https://i.imgur.com/1iGQvaU.png" alt="" />
           </TextReveal>
         </div>
       </section>
