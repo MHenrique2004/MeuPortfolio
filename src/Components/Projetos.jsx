@@ -113,7 +113,7 @@ function Projetos() {
                   <p id='ProjetoDesc'>Desenvolvido durante o TCC da faculdade, se trata de um web app de controle de finanças.</p>
                 </div>
                 <div className="botaoprojeto-home">
-                  <a href="https://mhenrique2004.github.io/Startup-Financeiro/"><button className='Botao-apresenta1'>Ver Projeto</button></a>
+                  <a href="https://mhenrique2004.github.io/Startup-Financeiro/Projeto%20Startup/Pages/landing%20page.html"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                 </div>
                 </TextReveal>
               </div>
