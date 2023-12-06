@@ -30,7 +30,7 @@ function Home() {
           </div>
           <div className="imagemaolado">
             <TextRevealOnce>
-            <img src="src/assets/Hand-coding-rafiki.svg" alt="" draggable='false' />
+            <img src="https://i.imgur.com/H3SnHah.png" alt="" draggable='false' />
             </TextRevealOnce>
           </div>
         </section>
