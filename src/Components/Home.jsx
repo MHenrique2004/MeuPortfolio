@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar from './NavBar'
 import './Styles/Home.css'
+import TextReveal from './TextReveal'
+import TextRevealOnce from './TextRevealOnce'
 
 function Home() {
   return (
@@ -8,49 +10,67 @@ function Home() {
       <NavBar />
 
       <div className="container-home">
+ 
         <section className='Apresentacao'>
           <div className="apresentar">
+            <TextRevealOnce>
             <h1>Desenvolvedor Front-End</h1>
             <div className="paragrafo-home">
               <h2>Olá, meu nome é Maurício Henrique e eu sou um Dev Web.</h2>
             </div>
-            <div className="botoes">
+            </TextRevealOnce>
+             <TextRevealOnce><div className="botoes">
+             
               <a href="/Contato"><button className='Botao-apresenta1'>Me Contate!</button></a>
               <a href="https://drive.google.com/file/d/177zut8aBP2t-EpISviZ3lWDtiezw3WK8/view?usp=sharing">
                 <button className='Botao-apresenta2'>Curriculum Vitae</button>
                 </a>
-            </div>
+                
+            </div></TextRevealOnce>
           </div>
           <div className="imagemaolado">
+            <TextRevealOnce>
             <img src="src/assets/Hand-coding-rafiki.svg" alt="" draggable='false' />
+            </TextRevealOnce>
           </div>
         </section>
+
         <section className="sobremim-home">
           <div className="controle-sobremim">
+            <TextReveal>
             <div className="Sobre-mim-Paragrafo">
               <h3>Sobre Mim</h3>
             </div>
+            </TextReveal>
             <div className="Sobre-mim-content">
+              <TextReveal>
               <h2>Como desenvolvedor eu desejo criar páginas com design surpreendente e
                 interativas para o conforto visual do usuário e sites com uma performance
                 que também seja excelente.</h2>
               <br />
               <h2>Atualmente faço projetos com ReactJS e tenho algumas outras habilidades que 
                 podem ser checadas no meu <a href="https://drive.google.com/file/d/177zut8aBP2t-EpISviZ3lWDtiezw3WK8/view?usp=sharing">Resumo</a>.</h2>
+             </TextReveal>
               <div className="botoes-sobremim">
+                <TextReveal>
                 <a href="/Sobre"><button className='Botao-apresenta1'>Leia Mais</button></a>
+                </TextReveal>
               </div>
             </div>
           </div>
         </section>
         <section className="MeusProjetos-home">
           <div className="controle-MeusProjetos">
+            <TextReveal>
             <div className="MeusProjetos-Paragrafo">
               <h3>Meus Projetos</h3>
             </div>
+            </TextReveal>
             <div className="MeusProjetos-content">
               <div className="cima">
+                
                 <div className="card">
+                  <TextReveal>
                   <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/logo-vr-1.jpg" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>VR Veículos Catálogo</h2>
@@ -60,8 +80,10 @@ function Home() {
                   <div className="botaoprojeto-home">
                     <a href="https://www.catalogovrveiculos.com"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
+                  </TextReveal>
                 </div>
                 <div className="card">
+                  <TextReveal>
                   <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/todolist.png" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>Lista de Tarefas</h2>
@@ -70,10 +92,12 @@ function Home() {
                   <div className="botaoprojeto-home">
                     <a href="https://mhenrique2004.github.io/To-Do-List/"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
+                  </TextReveal>
                 </div>
               </div>
               <div className="cima" id='baixo'>
                 <div className="card">
+                  <TextReveal>
                   <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/foto-sobre-projeto.png" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>Landing Page Thaís</h2>
@@ -82,8 +106,10 @@ function Home() {
                   <div className="botaoprojeto-home">
                     <a href="https://www.thaismelopd.com"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
+                  </TextReveal>
                 </div>
                 <div className="card">
+                  <TextReveal>
                   <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/Temperatura.png" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>WeatherApp</h2>
@@ -92,6 +118,7 @@ function Home() {
                   <div className="botaoprojeto-home">
                     <a href="https://mhenrique2004.github.io/Temperatura/"><button className='Botao-apresenta1'>Ver Projeto</button></a>
                   </div>
+                  </TextReveal>
                 </div>
               </div>
             </div>
