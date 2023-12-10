@@ -329,8 +329,7 @@ section.Contactme {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 120px;
-    border-top: 1px outset grey;
+    padding-top: 60px;
 
 }
 
