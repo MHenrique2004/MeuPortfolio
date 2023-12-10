@@ -9,7 +9,7 @@ function NavBar() {
         <div className="container">
             <TextRevealOnce>
             <div className="logo">
-                <a href="/"><img src="src/assets/Logo.png" alt="" /></a>
+                <a href="/"><img src="https://i.imgur.com/gVc2Fa1.png" alt="" /></a>
             </div>
              </TextRevealOnce>
             <div className="navbar">

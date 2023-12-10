@@ -4,9 +4,11 @@ import './Styles/Home.css'
 import TextReveal from './TextReveal'
 import TextRevealOnce from './TextRevealOnce'
 
+
 function Home() {
   return (
     <div>
+     
       <NavBar />
 
       <div className="container-home">
@@ -30,7 +32,7 @@ function Home() {
           </div>
           <div className="imagemaolado">
             <TextRevealOnce>
-            <img src="src/assets/Hand-coding-rafiki.svg" alt="" draggable='false' />
+            <img src="https://i.imgur.com/H3SnHah.png" alt="" draggable='false' />
             </TextRevealOnce>
           </div>
         </section>
@@ -71,7 +73,7 @@ function Home() {
                 
                 <div className="card">
                   <TextReveal>
-                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/logo-vr-1.jpg" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="https://i.imgur.com/rpXv5Kn.jpg" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>VR Veículos Catálogo</h2>
                     <p id='ProjetoDesc'>Catálogo desenvolvido para o cliente "VR Veículos" com a equipe de dev. freelancer
@@ -84,7 +86,7 @@ function Home() {
                 </div>
                 <div className="card">
                   <TextReveal>
-                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/todolist.png" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="https://i.imgur.com/zwQWaq6.png" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>Lista de Tarefas</h2>
                     <p id='ProjetoDesc'>WEB APP para fazer anotações, lista de metas e etc... feito com reactjs.</p>
@@ -98,7 +100,7 @@ function Home() {
               <div className="cima" id='baixo'>
                 <div className="card">
                   <TextReveal>
-                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/foto-sobre-projeto.png" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="https://i.imgur.com/rVL9CXj.png" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>Landing Page Thaís</h2>
                     <p id='ProjetoDesc'>Landing Page desenvolvida para a sócia da empresa Pegada Digital para captação de clientes.</p>
@@ -110,7 +112,7 @@ function Home() {
                 </div>
                 <div className="card">
                   <TextReveal>
-                  <div className="imagemcardprojeto"><img src="src/assets/ImagensProjetos/Temperatura.png" alt="" /></div>
+                  <div className="imagemcardprojeto"><img src="https://i.imgur.com/ips2Sqj.png" alt="" /></div>
                   <div className="textos-projetos-home">
                     <h2 id='ProjetoNome'>WeatherApp</h2>
                     <p id='ProjetoDesc'>WEB APP usado para consulta de temperatura e afins usando uma api pública de clima.</p>
@@ -166,8 +168,7 @@ function Home() {
 
           </footer>
       </div>
-
-    </div>
+      </div>
   )
 }
 
