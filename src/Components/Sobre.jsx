@@ -167,7 +167,7 @@ function Sobre() {
                 </div>
                 <div className="DataDuracao">
                   <div id="Data">
-                    <div className="imagenshardskill"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="logo docker" />
+                    <div className="imagenshardskill2"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="logo docker" />
                       <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=Salesforce&logoColor=white" alt="logo salesforce" />
                       <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="logo AWS" />
                     </div>
